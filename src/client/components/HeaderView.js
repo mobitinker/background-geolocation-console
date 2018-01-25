@@ -7,7 +7,7 @@ import Styles from '../assets/styles/app.css';
 import logo from '../assets/images/transistor-logo.svg';
 
 const HeaderView = () =>
-  <AppBar title='Background Geolocation Console' leftIcon='menu'>
+  <AppBar title='GolfMover Testing Console' leftIcon='menu'>
     <Navigation type='horizontal'>
       <Link href='http://transistorsoft.com' label=''>
         <img className={Styles.logo} src={logo} />
